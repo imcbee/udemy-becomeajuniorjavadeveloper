@@ -16,5 +16,7 @@ public class demo {
 		int index = algorithms.Search.binarySearch(sortedNumbers, 49, 0, sortedNumbers.length-1);
 		System.out.println("Found index: " + index);
 
+		// Call the bubble sort function
+		Sort.bubbleSort(numbers);
 	}
 }
